@@ -1,0 +1,68 @@
+
+body {
+    background: #f0f0f0;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.app {
+    display: flex;
+    gap: 20px;
+}
+
+.calc {
+    background: white;
+    padding: 15px;
+    width: 220px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+
+.display {
+    background: #222;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+button {
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    background: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active {
+    background: #bbb;
+}
+
+.hist {
+    width: 200px;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+
+.hist h3 {
+    margin-top: 0;
+}
+
+#history div {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
